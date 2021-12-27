@@ -71,15 +71,15 @@
 
         <div class="skills">
           <div class="progress">
-            <h3>html <span>6 month</span></h3>
+            <h3>html <span>8 month</span></h3>
             <div class="bar"><span></span></div>
           </div>
           <div class="progress">
-            <h3>css <span>6 month6</span></h3>
+            <h3>css <span>8 month6</span></h3>
             <div class="bar"><span></span></div>
           </div>
           <div class="progress">
-            <h3>react <span>6 month</span></h3>
+            <h3>react <span>7 month</span></h3>
             <div class="bar"><span></span></div>
           </div>
           <div class="progress">
@@ -94,22 +94,27 @@
         <div class="box-container">
           <div class="box">
             <i class="fab fa-html5"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>HTML</p>
           </div>
 
           <div class="box">
             <i class="fab fa-css3"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>CSS3</p>
           </div>
 
           <div class="box">
             <i class="fab fa-js"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Javascript</p>
           </div>
 
           <div class="box">
             <i class="fab fa-react"></i>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>ReactJS</p>
+          </div>
+
+          <div class="box">
+            <i class="fab fa-node-js"></i>
+            <p>Node.js</p>
           </div>
         </div>
       </section>
@@ -145,6 +150,7 @@
               <img src="./img/Capture.PNG" alt="..." />
               <h3 class="name">elerming</h3>
             </form>
+            <a target='_black' href="http://maiko-elerming.surge.sh/">Xem</a>
           </div>
 
           <div class="row">
@@ -152,6 +158,7 @@
               <img src="./img/movie.PNG" alt="..." />
               <h3 class="name">booking ticket movie</h3>
             </form>
+            <a target='_black' href="http://tight-pipe.surge.sh/">Xem</a>
           </div>
         </div>
       </section>
@@ -180,10 +187,12 @@
       });
 
       let themeColor = document.querySelectorAll(".theme-toggler span");
-      themeColor.forEach(item => item.addEventListener('click', () => {
-        let background = item.style.background;
-        document.querySelector("body").style.background = background
-      }))
+      themeColor.forEach((item) =>
+        item.addEventListener("click", () => {
+          let background = item.style.background;
+          document.querySelector("body").style.background = background;
+        })
+      );
     </script>
   </body>
 </html>

@@ -218,13 +218,13 @@ header .nav_bar ul li a:hover {
 }
 
 .about .skills .progress:nth-child(1) .bar span {
-  width: 50%;
+  width: 66.6%;
 }
 .about .skills .progress:nth-child(2) .bar span {
-  width: 50%;
+  width: 66.6%;
 }
 .about .skills .progress:nth-child(3) .bar span {
-  width: 50%;
+  width: 66.6%;
 }
 .about .skills .progress:nth-child(4) .bar span {
   width: 8.3%;
@@ -306,10 +306,11 @@ header .nav_bar ul li a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
+  margin: 0 1rem;
 }
 
 .project .row form img {
-  width: 90%;
+  width: 75%;
 }
 
 .theme-toggler {
@@ -325,7 +326,44 @@ header .nav_bar ul li a:hover {
   width: 3rem;
   border-radius: 50%;
   cursor: pointer;
-  margin: 1.5rem .5rem;
-  box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2), 
-              0 1rem 2rem rgba(0, 0, 0, 0.2);
+  margin: 1.5rem 0.5rem;
+  box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2),
+    0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.box .row {
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 10px;
+  padding: 25px;
+  color: #eee;
+}
+
+.box .row form {
+  margin-bottom: 1rem;
+  height: 10rem;
+}
+
+.box .row form img {
+  width: 15rem;
+  height: 7rem;
+  border-radius: 1rem;
+}
+
+.box .row a {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+  border-radius: 1rem;
+  transition: all 0.2s linear;
+}
+
+.box .row a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #555;
+  cursor: pointer;
 }
